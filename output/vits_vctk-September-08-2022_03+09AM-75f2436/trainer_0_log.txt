@@ -1,0 +1,10 @@
+ > Using CUDA: True
+ > Number of GPUs: 1
+
+ > Model has 83059180 parameters
+
+[4m[1m > EPOCH: 0/1000[0m
+ --> ./output\vits_vctk-September-08-2022_03+09AM-75f2436
+
+[1m > TRAINING (2022-09-08 03:09:12) [0m
+ ! Run is kept in ./output\vits_vctk-September-08-2022_03+09AM-75f2436
