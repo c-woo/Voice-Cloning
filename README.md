@@ -23,7 +23,9 @@ The Mozilla Common Voice Dataset can be found here: https://commonvoice.mozilla.
 
 # Conclusion
 
-I am able to distinguish between real and cloned voices with an extremely high accuracy rate using neural networks. I used a simple feed forward neural network which achieved a 98.9% accuracy rate and an LSTM model which achieved a 97.2% accuracy rate. I would use the simple feed forward neural network with my dataset because it achieved a higher accuracy rate with a shorter training time than the LSTM model.
+I am able to distinguish between real and cloned voices with an extremely high accuracy rate using neural networks. I used a simple feed forward neural network which achieved a 98.9% accuracy rate and an LSTM model which achieved a 97.2% accuracy rate. 
+
+I would use the simple feed forward neural network with my dataset because it achieved a higher accuracy rate with a shorter training time than the LSTM model.
 However, different models could perform better on different datasets, so I would recommend training a couple different models and finding the one that works best for your dataset.
 
 
