@@ -6,6 +6,21 @@ The voice cloning notebook shows the steps to train a model on the TIMIT dataset
 I used the synthesized speech from the Coqui TTS model to create cloned voices and I used real voices from the Mozilla Common Voice Dataset to create a dataset to be used for voice classification. I created a couple neural networks to perform voice classification between real and cloned voices using the dataset, which can be found in the Voice Classification notebook.
 The Mozilla Common Voice Dataset can be found here: https://commonvoice.mozilla.org/en/datasets
 
+## Data
+The dataset needs to be formatted in this way to be used with the vctk dataset configuration. The text files contain the transcription of the audio files and the wav files contain the audio.
+
+/MyTTSDataset\
+&emsp;| -> /txt\
+&emsp;&emsp;&emsp;| -> /speaker\
+&emsp;&emsp;&emsp;&emsp;&emsp;| -> audio1.txt\
+&emsp;&emsp;&emsp;&emsp;&emsp;| -> audio2.txt\
+&emsp;&emsp;&emsp;&emsp;&emsp;| -> ...\
+&emsp;| -> /wav48\
+&emsp;&emsp;&emsp;| -> /speaker\
+&emsp;&emsp;&emsp;&emsp;&emsp;| -> audio1.wav\
+&emsp;&emsp;&emsp;&emsp;&emsp;| -> audio2.wav\
+&emsp;&emsp;&emsp;&emsp;&emsp;| -> ...
+
 
 ## Simple Dense Neural Network
 <img src='https://i.imgur.com/cybfFGI.jpg'>
